@@ -2,7 +2,7 @@ import React from "react"
 import LogOut from '../components/btns/logOut'
 import BtnNavBack from '../components/btns/btnNavBack'
 import BtnNavNext from '../components/btns/btnNavNext'
-import { ReactComponent as Mp3 } from '../assets/images/mp3.svg'
+import ReactPlayer from 'react-player'
 import { Link } from "react-router-dom"
 
 const Ss5 = () => {
@@ -34,7 +34,15 @@ const Ss5 = () => {
                         </Link>
                     </div>
                     <div className="grd_btm_center">
-                        <Mp3/>
+                        <div className="audioplayer">
+                            <ReactPlayer
+                                url={require('../assets/mp3/hothothot.mp3')}
+                                width="400px"
+                                height="50px"
+                                playing={true}
+                                controls={true}
+                            />
+                        </div>
                     </div>
                     <div className="grd_btm_right">
                         <Link to={"/Ss6"}>

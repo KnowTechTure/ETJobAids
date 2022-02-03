@@ -62,7 +62,7 @@ const Fp39 = () => {
                         </Link>
                     </div>
                     <div className="grd_btm_center">
-                    <div className="audioplayer">
+                        <div className="audioplayer">
                             <ReactPlayer
                                 url={require('../assets/mp3/hothothot.mp3')}
                                 width="400px"
