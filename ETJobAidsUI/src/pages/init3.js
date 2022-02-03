@@ -18,6 +18,8 @@ const Init3 = () => {
     }
 
     return (
+        <>
+        <div class="cont_int3"></div>
         <div className="lyts">
             <div className="grd_top_nav">
                 <div className="grd_left_top">
@@ -68,6 +70,7 @@ const Init3 = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 export default Init3;

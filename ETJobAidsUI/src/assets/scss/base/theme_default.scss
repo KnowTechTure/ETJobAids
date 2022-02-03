@@ -44,7 +44,7 @@
   --fontSizeXl: 1.5rem;
   --fontSizeXx: 1.8rem;
 
-  --fontSizeH1: 1.8vw;
+  --fontSizeH1: 2vw;
   --marginTopBtmH1: 5vw;
   --paddingXxlH1:6.2vw;
   --paddingCanvas:-40vw;
@@ -70,12 +70,17 @@
   --inputTransitionTF: var(--transitionTF);
 }
 
+
 h1 {
-  font-size: calc(1rem + var(--fontSizeH1));
- // margin-top: calc(2px + var(--marginTopBtmH1));
-  margin-bottom: 50px;
   color: $cc00;
+  -webkit-text-stroke: 0.5px $cc01;
 }
+$H1FontSize_0:calc(4vw + var(--fontSizeH1));
+$H1FontSize_1:calc(2vw + var(--fontSizeH1));
+$H1FontSize_2:calc(1.5vw + var(--fontSizeH1));
+$H1FontSize_3:calc(1.3vw + var(--fontSizeH1));
+$H1FontSize_4:calc(1vw + var(--fontSizeH1));
+$H1FontSize_5:calc(0.8vw + var(--fontSizeH1));
 
 h2 {
   font-size: calc(0.8rem + var(--fontSizeH2));

@@ -1,0 +1,19 @@
+.wrppr1 {
+    width: 100vw;
+    height: 100vh;
+
+    .bk_left {
+        float: left;
+        width: 56vw;
+        height: 100vh;
+        background-color: $cc04;
+        -webkit-clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+    }
+
+    .bk_right {
+        float: left;
+        width: 44vw;
+        height: 100vh;
+    }
+}

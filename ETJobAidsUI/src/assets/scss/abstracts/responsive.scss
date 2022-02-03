@@ -1,0 +1,3806 @@
+//Laptops
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {}
+
+//Tablets
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* ----------- iPad Pro 10.5" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait and Landscape */
+@media (min-device-width: 800px) and (max-device-width: 1280px) {}
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) {}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) {}
+
+/* ----------- Galaxy Tab S ----------- */
+
+/* Portrait and Landscape */
+@media (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* ----------- Nexus 7 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {}
+
+/* Portrait */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {}
+
+/* ----------- Nexus 9 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {}
+
+/* Portrait */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {}
+
+/* ----------- Kindle Fire HD 7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {}
+
+/* ----------- Kindle Fire HD 8.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {}
+
+//Phones and handhelds
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .wrapper {
+        width: 100vw;
+        height: 100vh;
+        background-color: $cc01;
+
+        .bk_left {
+            clear: both;
+            position: relative!important;
+            width: 100vw;
+            height: 50vh;
+            background-color: $cc07;
+        }
+
+        .bk_right {
+            clear: both;
+            position: relative;
+            width: 100vw;
+            height: 50vh;
+        }
+    }
+
+    .lyts {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "grd_top_nav"
+            "grd_cont"
+            "grd_bottom_nav";
+        //background-color: $cc01;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        .grd_top_nav {
+
+            .grd_left_top {
+                padding: 8% 0 8% 8% !important;
+                grid-area: grd_left_top;
+
+                svg {
+                    height: 10vw !important;
+                    width: 10vw !important;
+
+                    .pathcc {
+                        fill: $cc08;
+                    }
+                }
+            }
+
+            .grd_right_top {
+                padding: 8% 8% 0 0 !important;
+                grid-area: grd_right_top;
+
+                div {
+                    float: right;
+                }
+            }
+
+        }
+
+        .grd_cont {
+            grid-area: grd_cont;
+
+            //LYT INT1
+            .int1 {
+
+                .grd_line1 {
+                    grid-area: grd_line1;
+
+                    h1 {
+                        font-size: 6em;
+                        margin: 10vh 0 !important;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    grid-area: grd_line2;
+
+                    .video_player {
+                        height: auto;
+                    }
+                }
+            }
+
+            //[END] LYT INT1
+
+            //LYT INT2
+            .int2 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2"
+                    "grd_line3";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    display: flex;
+                    grid-area: grd_line2;
+
+                    div {
+                        margin: 0 auto;
+
+                        div {
+                            float: left;
+
+                            div {
+                                clear: both;
+                                width: 100%;
+                                height: auto;
+
+                                svg {
+                                    margin: 50px 32px 0;
+                                    cursor: pointer;
+                                    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                    height: 23vw !important;
+                                    width: 23vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    @media screen and (min-width: $xlarge) {
+                                        height: 30vw !important;
+                                        width: 30vw !important;
+                                    }
+
+                                    @media screen and (min-width: $xxlarge) {
+                                        height: 15vw !important;
+                                        width: 15vw !important;
+                                    }
+
+                                }
+
+                                @media screen and (max-width: 447px) {
+                                    clear: both;
+                                    float: none;
+                                }
+
+
+                                h2 {
+                                    text-align: center;
+                                    margin: 21px 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT INT2
+
+            //LYT INT3
+            .int3 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    display: flex;
+                    grid-area: grd_line2;
+
+                    div {
+                        margin: 0 auto;
+
+                        div {
+                            float: left;
+
+                            div {
+                                clear: both;
+                                width: 100%;
+                                height: auto;
+
+                                svg {
+                                    margin: 50px 32px 0;
+                                    cursor: pointer;
+                                    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                    height: 23vw !important;
+                                    width: 23vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    @media screen and (min-width: $xlarge) {
+                                        height: 30vw !important;
+                                        width: 30vw !important;
+                                    }
+
+                                    @media screen and (min-width: $xxlarge) {
+                                        height: 15vw !important;
+                                        width: 15vw !important;
+                                    }
+
+                                }
+
+                                @media screen and (max-width: 447px) {
+                                    clear: both;
+                                    float: none;
+                                }
+
+
+                                h2 {
+                                    text-align: center;
+                                    margin: 21px 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT INT3
+
+            //LYT SS1
+            .ss1 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto 1fr auto;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2"
+                    "grd_line3";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line2;
+
+                    h2 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line3 {
+                    display: flex;
+                    grid-area: grd_line3;
+
+                    div {
+                        margin: 0 auto;
+
+                        div {
+                            float: left;
+
+                            div {
+                                clear: both;
+                                width: 100%;
+                                height: auto;
+
+                                svg {
+                                    margin: 50px 32px 0;
+                                    cursor: pointer;
+                                    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                    height: 23vw !important;
+                                    width: 23vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    @media screen and (min-width: $xlarge) {
+                                        height: 30vw !important;
+                                        width: 30vw !important;
+                                    }
+
+                                    @media screen and (min-width: $xxlarge) {
+                                        height: 15vw !important;
+                                        width: 15vw !important;
+                                    }
+
+                                }
+
+                                @media screen and (max-width: 447px) {
+                                    clear: both;
+                                    float: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS1
+
+            //LYT SS1.1
+            .ss1_1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 60px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_left grd_right";
+
+                .grd_left {
+                    grid-area: grd_left;
+
+                    div {
+                        background-color: $cc01;
+                        height: 30vw !important;
+                        width: 30vw !important;
+                        max-width: 500px;
+                        max-height: 500px;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        margin: 50px 0;
+                        cursor: pointer;
+                        float: right;
+                        border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                        border: 4px solid #722022;
+
+                        svg {}
+
+                        @media screen and (max-width: 447px) {
+                            clear: both;
+                            float: none;
+                        }
+                    }
+                }
+
+                .grd_right {
+                    grid-area: grd_right;
+
+                    .cont {
+                        width: 100%;
+                        height: auto;
+                        max-width: 600px;
+                        padding: 16px;
+
+                        h1 {
+                            margin-left: 8px;
+                            text-align: left;
+                        }
+
+                        .flds {
+                            padding: 8px;
+                            float: left;
+
+                            &:nth-child(1n) {
+                                width: 25%;
+                            }
+
+                            &:nth-child(2n) {
+                                width: 75%;
+                            }
+                        }
+
+                        .qsts {
+                            padding: 8px;
+                            clear: both;
+
+                            h3 {
+                                margin: 16px;
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            //[END] LYT SS1.1
+
+            //LYT SS1.2
+            .ss1_2 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    display: flex;
+                    grid-area: grd_line2;
+
+                    div {
+                        margin: 0 auto;
+
+                        div {
+                            float: left;
+
+                            div {
+                                clear: both;
+                                width: 100%;
+                                height: auto;
+
+                                svg {
+                                    margin: 50px 32px 0;
+                                    cursor: pointer;
+                                    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                    height: 23vw !important;
+                                    width: 23vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    @media screen and (min-width: $xlarge) {
+                                        height: 30vw !important;
+                                        width: 30vw !important;
+                                    }
+
+                                    @media screen and (min-width: $xxlarge) {
+                                        height: 15vw !important;
+                                        width: 15vw !important;
+                                    }
+
+                                }
+
+                                @media screen and (max-width: 447px) {
+                                    clear: both;
+                                    float: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS1.2
+
+            //LYT SS1.3
+            .ss1_3 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 60px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_left grd_right";
+
+                .grd_left {
+                    grid-area: grd_left;
+
+                    div {
+                        background-color: $cc01;
+                        height: 30vw !important;
+                        width: 30vw !important;
+                        max-width: 500px;
+                        max-height: 500px;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        margin: 50px 0;
+                        cursor: pointer;
+                        float: right;
+                        border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                        border: 4px solid #722022;
+
+                        svg {
+                            padding-top: 5vw;
+                            width: 314px;
+                            height: auto;
+                            display: flex;
+                            margin: 0 auto;
+                        }
+
+                        @media screen and (max-width: 447px) {
+                            clear: both;
+                            float: none;
+                        }
+                    }
+                }
+
+                .grd_right {
+                    grid-area: grd_right;
+
+                    .cont {
+                        width: 100%;
+                        height: auto;
+                        max-width: 600px;
+                        padding: 16px;
+
+                        h1 {
+                            margin-left: 8px;
+                            text-align: left;
+                        }
+
+                        .flds {
+                            padding: 8px 0 32px;
+                        }
+                    }
+
+                }
+            }
+
+            //[END] LYT SS1.3
+
+            //LYT SS1.4
+            .ss1_4 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    display: flex;
+                    grid-area: grd_line2;
+
+                    div {
+                        margin: 0 auto;
+
+                        div {
+                            float: left;
+
+                            div {
+                                clear: both;
+                                width: 100%;
+                                height: auto;
+
+                                svg {
+                                    margin: 50px 32px 20px;
+                                    cursor: pointer;
+                                    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                    height: 23vw !important;
+                                    width: 23vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    @media screen and (min-width: $xlarge) {
+                                        height: 30vw !important;
+                                        width: 30vw !important;
+                                    }
+
+                                    @media screen and (min-width: $xxlarge) {
+                                        height: 15vw !important;
+                                        width: 15vw !important;
+                                    }
+
+                                }
+
+                                @media screen and (max-width: 447px) {
+                                    clear: both;
+                                    float: none;
+                                }
+
+                                .quantity-input {
+                                    margin: 21px 8px;
+                                    background-color: blueviolet;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS1.4
+
+            //LYT SS1.5
+            .ss1_5 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto 50px 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2"
+                    "grd_line3"
+                    "grd_line4";
+                height: 100%;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    overflow-y: auto;
+                    overflow-x: hidden;
+                    justify-content: center;
+                    justify-self: center;
+                    padding: 9vh 1em;
+                    grid-area: grd_line2;
+
+                    div {
+                        float: left;
+                        margin: 0 8px;
+                        min-width: 150px;
+
+                        @media screen and (max-width: $small) {
+                            width: 100%;
+                            margin-bottom: 12px;
+                        }
+
+                        @media screen and (min-width: $medium) {
+                            width: 46%;
+                            margin-bottom: 12px;
+                        }
+
+                        @media screen and (min-width: $xlarge) {
+                            width: 20%;
+                            margin-bottom: 12px;
+                        }
+                    }
+
+                }
+
+                .grd_line3 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: nowrap;
+                    padding: 0 1em;
+                    padding-top: 32px;
+                    grid-area: grd_line3;
+
+                    h2 {
+                        text-align: center;
+                    }
+                }
+
+                .grd_line4 {
+                    padding: 0 1em;
+                    justify-content: center;
+                    justify-self: center;
+                    padding-top: 32px;
+                    grid-area: grd_line4;
+
+                    div {
+                        float: left;
+
+                        &:nth-child(1n) {
+                            margin-right: 40px;
+                        }
+
+                        &:nth-child(2n) {
+                            margin-left: 40px;
+                        }
+
+
+                        @media screen and (max-width: $small) {
+                            width: 12rem;
+                            margin-bottom: 12px;
+                        }
+
+                        @media screen and (min-width: $medium) {
+                            width: 12rem;
+                            margin-bottom: 12px;
+                        }
+                    }
+
+                    @media screen and (max-width: $large) {
+                        width: 12rem;
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+
+            //[END] LYT SS1.5
+
+            //LYT SS1.6
+            .ss1_6 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 40px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_left grd_right";
+                height: 90%;
+
+                .grd_left {
+                    //background-color: aquamarine;
+                    grid-area: grd_left;
+
+                    .cont {
+                        width: 100%;
+                        height: 100%;
+                        padding: calc(.5rem + var(--paddingXxlH1));
+
+                        h2 {
+                            margin-left: 8px;
+                            text-align: left;
+                        }
+                    }
+                }
+
+                .grd_right {
+                    grid-area: grd_right;
+
+                    .cont {
+                        width: auto;
+                        height: auto;
+                        float: right;
+                        margin-right: 5vw;
+                        padding: 2vw;
+                        //background-color: blueviolet;
+
+                        .fathers {
+                            position: relative;
+                            width: auto;
+                            height: auto;
+                            //background-color: rgb(238, 164, 130);
+
+                            div {
+                                float: right;
+
+                                &:nth-child(1n) {
+                                    //husband
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 0%;
+                                    margin-left: -40px;
+                                    //background-color: rgba(107, 128, 199, 0.555);
+                                }
+
+                                &:nth-child(2n) {
+                                    //wife
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 5%;
+                                    margin-left: -5%;
+                                    //background-color: rgba(199, 107, 194, 0.555);
+                                }
+                            }
+                        }
+
+                        .cont_kids {
+                            position: absolute;
+                            margin-top: 25vh;
+                            margin-left: -15%;
+                            margin-left: calc(-27% + 10%);
+
+                            .kids_l2 {
+                                height: auto;
+                                background-color: rgb(224, 134, 205);
+
+                                div {
+
+                                    &:nth-child(1n) {
+                                        height: auto;
+                                        float: left;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -1%;
+                                        //background-color: rgb(0, 110, 161);
+
+                                        svg {
+                                            height: 50%;
+                                        }
+
+                                    }
+
+                                    &:nth-child(2n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 45%;
+                                        }
+                                    }
+
+                                    &:nth-child(3n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: 3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 108, 112);
+
+                                        svg {
+                                            height: 40%;
+                                        }
+                                    }
+
+                                    &:nth-child(4n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 35%;
+                                        }
+                                    }
+
+                                    &:nth-child(5n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 255, 34);
+
+                                        svg {
+                                            height: 30%;
+                                        }
+                                    }
+
+                                    &:nth-child(6n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(121, 0, 81);
+
+                                        svg {
+                                            height: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+
+            //[END] LYT SS1.6
+
+            //LYT SS1
+            .ss2 {
+                width: 100%;
+                height: 100%;
+                //background-color: violet;
+            }
+
+            //[END] LYT SS2
+
+            //LYT SS3
+            .ss3 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 60px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_left grd_right";
+
+                .grd_left {
+                    grid-area: grd_left;
+
+                    div {
+                        background-color: $cc01;
+                        height: 30vw !important;
+                        width: 30vw !important;
+                        max-width: 500px;
+                        max-height: 500px;
+                        border-radius: 5px;
+                        overflow: hidden;
+                        margin: 50px 0;
+                        cursor: pointer;
+                        float: right;
+                        border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                        border: 4px solid #722022;
+                        display: flex;
+                        justify-self: center;
+                        align-items: center;
+
+                        svg {
+                            margin: 0 auto;
+                            width: 70%;
+                        }
+
+                        @media screen and (max-width: 447px) {
+                            clear: both;
+                            float: none;
+                        }
+                    }
+                }
+
+                .grd_right {
+                    grid-area: grd_right;
+
+                    .cont {
+                        width: 100%;
+                        height: auto;
+                        max-width: 500px;
+                        padding: 16px;
+
+                        h1 {
+                            margin-left: 8px;
+                            text-align: left;
+                        }
+
+                        .flds {
+                            margin: 0 0 21px;
+                            padding: 8px;
+                            float: left;
+                            width: 50%;
+
+                        }
+
+                        .btns {
+                            clear: both;
+                            text-align: center;
+                        }
+                    }
+
+                }
+            }
+
+            //[END] LYT SS3
+
+            //LYT SS4
+            .ss4 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    text-align: center;
+                    grid-area: grd_line1;
+
+                    .content_video {
+                        position: relative;
+                        margin-top: 50px;
+                        padding-top: 25px;
+                        height: 100%;
+
+                        iframe {
+                            position: absolute;
+                            top: 0;
+                            left: calc(100% / 4);
+                            width: calc(100% / 2);
+                            height: 80%;
+                            border-radius: 10px;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS4
+
+            //LYT SS5
+            .ss5 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1";
+                height: 100%;
+
+                .grd_line1 {
+                    text-align: center;
+                    grid-area: grd_line1;
+
+                    .cont {
+                        position: relative;
+                        margin-top: 50px;
+                        padding-top: 25px;
+                        height: 100%;
+
+                        iframe {
+                            position: absolute;
+                            top: 0;
+                            left: calc(100% / 4);
+                            width: calc(100% / 2);
+                            height: 80%;
+                            border-radius: 10px;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS5
+
+            //LYT SS6
+            .ss6 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    text-align: center;
+                    grid-area: grd_line1;
+
+                    .content_video {
+                        position: relative;
+                        margin-top: 50px;
+                        padding-top: 25px;
+                        height: 100%;
+
+                        iframe {
+                            position: absolute;
+                            top: 0;
+                            left: calc(100% / 4);
+                            width: calc(100% / 2);
+                            height: 80%;
+                            border-radius: 10px;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS6
+
+            //LYT SS7
+            .ss7 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1";
+                height: 100%;
+
+                .grd_line1 {
+                    text-align: center;
+                    grid-area: grd_line1;
+
+                    .cont {
+                        position: relative;
+                        margin-top: 50px;
+                        padding-top: 25px;
+                        height: 100%;
+                    }
+                }
+            }
+
+            //[END] LYT SS7
+
+            //LYT SS8
+            .ss8 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 40px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_left grd_right";
+                height: 90%;
+
+                .grd_left {
+                    //background-color: aquamarine;
+                    grid-area: grd_left;
+
+                    .cont {
+                        width: 100%;
+                        height: 100%;
+                        padding: calc(.5rem + var(--paddingXxlH1));
+
+                        h2 {
+                            margin-left: 8px;
+                            text-align: left;
+                        }
+
+                        .circle {
+                            background-color: $cc01;
+                            height: 5vw !important;
+                            width: 5vw !important;
+                            max-width: 72px;
+                            max-height: 72px;
+                            min-width: 36px;
+                            min-height: 36px;
+                            border-radius: 5px;
+                            overflow: hidden;
+                            margin: 0 4vw;
+                            cursor: pointer;
+                            float: left;
+                            border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+
+                            svg {
+                                width: 100%;
+                                height: 100%;
+                                max-width: 72px;
+                                height: auto;
+                                display: flex;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+
+                .grd_right {
+                    grid-area: grd_right;
+
+                    .cont {
+                        width: auto;
+                        height: auto;
+                        float: right;
+                        margin-right: 5vw;
+                        padding: 2vw;
+                        //background-color: blueviolet;
+
+                        .fathers {
+                            position: relative;
+                            width: auto;
+                            height: auto;
+                            //background-color: rgb(238, 164, 130);
+
+                            div {
+                                float: right;
+
+                                &:nth-child(1n) {
+                                    //husband
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 0%;
+                                    margin-left: -40px;
+                                    //background-color: rgba(107, 128, 199, 0.555);
+                                }
+
+                                &:nth-child(2n) {
+                                    //wife
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 5%;
+                                    margin-left: -5%;
+                                    //background-color: rgba(199, 107, 194, 0.555);
+                                }
+                            }
+                        }
+
+                        .cont_kids {
+                            position: absolute;
+                            margin-top: 25vh;
+                            margin-left: -15%;
+                            margin-left: calc(-27% + 10%);
+
+                            .kids_l2 {
+                                height: auto;
+                                background-color: rgb(224, 134, 205);
+
+                                div {
+
+                                    &:nth-child(1n) {
+                                        height: auto;
+                                        float: left;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -1%;
+                                        //background-color: rgb(0, 110, 161);
+
+                                        svg {
+                                            height: 50%;
+                                        }
+
+                                    }
+
+                                    &:nth-child(2n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 45%;
+                                        }
+                                    }
+
+                                    &:nth-child(3n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: 3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 108, 112);
+
+                                        svg {
+                                            height: 40%;
+                                        }
+                                    }
+
+                                    &:nth-child(4n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 35%;
+                                        }
+                                    }
+
+                                    &:nth-child(5n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 255, 34);
+
+                                        svg {
+                                            height: 30%;
+                                        }
+                                    }
+
+                                    &:nth-child(6n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(121, 0, 81);
+
+                                        svg {
+                                            height: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+
+            //[END] LYT SS8
+
+            //LYT SS8_1
+            .ss8_1 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 40px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_left grd_right";
+                height: 90%;
+
+                .grd_left {
+                    //background-color: aquamarine;
+                    grid-area: grd_left;
+
+                    .cont {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0 calc(.5rem + var(--paddingXxlH1));
+
+                        h1 {
+                            margin-left: 8px;
+                            text-align: left;
+                        }
+
+                        h2 {
+                            margin-left: 8px;
+                            text-align: left;
+                        }
+
+                        .circle {
+                            background-color: $cc01;
+                            height: 5vw !important;
+                            width: 5vw !important;
+                            max-width: 72px;
+                            max-height: 72px;
+                            min-width: 36px;
+                            min-height: 36px;
+                            border-radius: 5px;
+                            overflow: hidden;
+                            margin: 0 4vw;
+                            cursor: pointer;
+                            float: left;
+                            border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+
+                            svg {
+                                width: 100%;
+                                height: 100%;
+                                max-width: 72px;
+                                height: auto;
+                                display: flex;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+
+                .grd_right {
+                    grid-area: grd_right;
+
+                    .cont {
+                        width: auto;
+                        height: auto;
+                        float: right;
+                        margin-right: 5vw;
+                        padding: 2vw;
+                        //background-color: blueviolet;
+
+                        .fathers {
+                            position: relative;
+                            width: auto;
+                            height: auto;
+                            //background-color: rgb(238, 164, 130);
+
+                            div {
+                                float: right;
+
+                                &:nth-child(1n) {
+                                    //husband
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 0%;
+                                    margin-left: -40px;
+                                    //background-color: rgba(107, 128, 199, 0.555);
+                                }
+
+                                &:nth-child(2n) {
+                                    //wife
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 5%;
+                                    margin-left: -5%;
+                                    //background-color: rgba(199, 107, 194, 0.555);
+                                }
+                            }
+                        }
+
+                        .cont_kids {
+                            position: absolute;
+                            margin-top: 25vh;
+                            margin-left: -15%;
+                            margin-left: calc(-27% + 10%);
+
+                            .kids_l2 {
+                                height: auto;
+                                background-color: rgb(224, 134, 205);
+
+                                div {
+
+                                    &:nth-child(1n) {
+                                        height: auto;
+                                        float: left;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -1%;
+                                        //background-color: rgb(0, 110, 161);
+
+                                        svg {
+                                            height: 50%;
+                                        }
+
+                                    }
+
+                                    &:nth-child(2n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 45%;
+                                        }
+                                    }
+
+                                    &:nth-child(3n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: 3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 108, 112);
+
+                                        svg {
+                                            height: 40%;
+                                        }
+                                    }
+
+                                    &:nth-child(4n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 35%;
+                                        }
+                                    }
+
+                                    &:nth-child(5n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 255, 34);
+
+                                        svg {
+                                            height: 30%;
+                                        }
+                                    }
+
+                                    &:nth-child(6n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(121, 0, 81);
+
+                                        svg {
+                                            height: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+
+            //[END] LYT SS8_1
+
+            //LYT SS8_1_1
+            .ss8_1_1 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    grid-area: grd_line2;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    grid-auto-columns: 1fr;
+                    grid-auto-rows: 1fr;
+                    gap: 0px 0px;
+                    grid-auto-flow: row;
+                    justify-content: center;
+                    align-content: center;
+                    justify-items: center;
+                    align-items: center;
+                    grid-template-areas:
+                        "grd_top"
+                        "grd_bttm";
+
+                    .grd_top {
+                        grid-area: grd_top;
+
+                        div {
+                            float: left;
+
+                            svg {
+                                margin: 50px 32px 0;
+                                cursor: pointer;
+                                box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                height: 12vw !important;
+                                width: 12vw !important;
+                                border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                            }
+
+                            @media screen and (max-width: 447px) {
+                                clear: both;
+                                float: none;
+                            }
+                        }
+                    }
+
+                    .grd_bttm {
+                        grid-area: grd_bttm;
+
+                        div {
+                            float: left;
+
+                            svg {
+                                margin: 50px 32px 0;
+                                cursor: pointer;
+                                box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                height: 12vw !important;
+                                width: 12vw !important;
+                                border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                            }
+
+                            @media screen and (max-width: 447px) {
+                                clear: both;
+                                float: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            //LYT SS8_1_2
+            .ss8_1_2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 40px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_left grd_right";
+                height: 90%;
+
+                .grd_left {
+                    //background-color: aquamarine;
+                    grid-area: grd_left;
+
+                    .cont {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0 calc(.5rem + var(--paddingXxlH1));
+
+                        h1 {
+                            margin: 30% 8px 50px;
+                            text-align: left;
+                        }
+
+                        .circle {
+                            background-color: $cc01;
+                            height: 5vw !important;
+                            width: 5vw !important;
+                            max-width: 72px;
+                            max-height: 72px;
+                            min-width: 36px;
+                            min-height: 36px;
+                            border-radius: 5px;
+                            overflow: hidden;
+                            margin: 0 4vw;
+                            cursor: pointer;
+                            float: left;
+                            border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+
+                            svg {
+                                width: 100%;
+                                height: 100%;
+                                max-width: 72px;
+                                height: auto;
+                                display: flex;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+
+                .grd_right {
+                    grid-area: grd_right;
+
+                    .cont {
+                        width: auto;
+                        height: auto;
+                        float: right;
+                        margin-right: 5vw;
+                        padding: 2vw;
+                        //background-color: blueviolet;
+
+                        .fathers {
+                            position: relative;
+                            width: auto;
+                            height: auto;
+                            //background-color: rgb(238, 164, 130);
+
+                            div {
+                                float: right;
+
+                                &:nth-child(1n) {
+                                    //husband
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 0%;
+                                    margin-left: -40px;
+                                    //background-color: rgba(107, 128, 199, 0.555);
+                                }
+
+                                &:nth-child(2n) {
+                                    //wife
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 5%;
+                                    margin-left: -5%;
+                                    //background-color: rgba(199, 107, 194, 0.555);
+                                }
+                            }
+                        }
+
+                        .cont_kids {
+                            position: absolute;
+                            margin-top: 25vh;
+                            margin-left: -15%;
+                            margin-left: calc(-27% + 10%);
+
+                            .kids_l2 {
+                                height: auto;
+                                background-color: rgb(224, 134, 205);
+
+                                div {
+
+                                    &:nth-child(1n) {
+                                        height: auto;
+                                        float: left;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -1%;
+                                        //background-color: rgb(0, 110, 161);
+
+                                        svg {
+                                            height: 50%;
+                                        }
+
+                                    }
+
+                                    &:nth-child(2n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 45%;
+                                        }
+                                    }
+
+                                    &:nth-child(3n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: 3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 108, 112);
+
+                                        svg {
+                                            height: 40%;
+                                        }
+                                    }
+
+                                    &:nth-child(4n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 35%;
+                                        }
+                                    }
+
+                                    &:nth-child(5n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 255, 34);
+
+                                        svg {
+                                            height: 30%;
+                                        }
+                                    }
+
+                                    &:nth-child(6n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(121, 0, 81);
+
+                                        svg {
+                                            height: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+
+            //[END] LYT SS8_1_2
+
+            //LYT SS8_1_3
+            .ss8_1_3 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: calc(1vw + var(--paddingXxlH1));
+                }
+            }
+
+            //[END] LYT SS8_1_3
+
+            //LYT SS8_1_4
+            .ss8_1_4 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: calc(2vw + var(--paddingXxlH1));
+                }
+            }
+
+            //[END] LYT SS8_1_5
+
+            //LYT SS8_1_5
+            .ss8_1_5 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: calc(2vw + var(--paddingXxlH1));
+                }
+            }
+
+            //[END] LYT SS8_1_5
+
+            //LYT SS8_2
+            .ss8_2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 40px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_left grd_right";
+                height: 90%;
+
+                .grd_left {
+                    //background-color: aquamarine;
+                    grid-area: grd_left;
+
+                    .cont {
+                        width: 100%;
+                        height: 100%;
+                        padding: 0 calc(.5rem + var(--paddingXxlH1));
+
+                        h1 {
+                            margin: 100px 8px;
+                            text-align: left;
+                        }
+
+                        .circle {
+                            background-color: $cc01;
+                            height: 5vw !important;
+                            width: 5vw !important;
+                            max-width: 72px;
+                            max-height: 72px;
+                            min-width: 36px;
+                            min-height: 36px;
+                            border-radius: 5px;
+                            overflow: hidden;
+                            margin: 0 4vw;
+                            cursor: pointer;
+                            float: left;
+                            border-radius: 50%;
+                            -moz-border-radius: 50%;
+                            -webkit-border-radius: 50%;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+
+                            svg {
+                                width: 100%;
+                                height: 100%;
+                                max-width: 72px;
+                                height: auto;
+                                display: flex;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+                }
+
+                .grd_right {
+                    grid-area: grd_right;
+
+                    .cont {
+                        width: auto;
+                        height: auto;
+                        float: right;
+                        margin-right: 5vw;
+                        padding: 2vw;
+                        //background-color: blueviolet;
+
+                        .fathers {
+                            position: relative;
+                            width: auto;
+                            height: auto;
+                            //background-color: rgb(238, 164, 130);
+
+                            div {
+                                float: right;
+
+                                &:nth-child(1n) {
+                                    //husband
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 0%;
+                                    margin-left: -40px;
+                                    //background-color: rgba(107, 128, 199, 0.555);
+                                }
+
+                                &:nth-child(2n) {
+                                    //wife
+                                    height: auto;
+                                    color: $cc01;
+                                    margin-top: 5%;
+                                    margin-left: -5%;
+                                    //background-color: rgba(199, 107, 194, 0.555);
+                                }
+                            }
+                        }
+
+                        .cont_kids {
+                            position: absolute;
+                            margin-top: 25vh;
+                            margin-left: -15%;
+                            margin-left: calc(-27% + 10%);
+
+                            .kids_l2 {
+                                height: auto;
+                                background-color: rgb(224, 134, 205);
+
+                                div {
+
+                                    &:nth-child(1n) {
+                                        height: auto;
+                                        float: left;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -1%;
+                                        //background-color: rgb(0, 110, 161);
+
+                                        svg {
+                                            height: 50%;
+                                        }
+
+                                    }
+
+                                    &:nth-child(2n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 45%;
+                                        }
+                                    }
+
+                                    &:nth-child(3n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: 3%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 108, 112);
+
+                                        svg {
+                                            height: 40%;
+                                        }
+                                    }
+
+                                    &:nth-child(4n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-top: -1%;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 112, 9);
+
+                                        svg {
+                                            height: 35%;
+                                        }
+                                    }
+
+                                    &:nth-child(5n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(0, 255, 34);
+
+                                        svg {
+                                            height: 30%;
+                                        }
+                                    }
+
+                                    &:nth-child(6n) {
+                                        height: auto;
+                                        color: $cc01;
+                                        margin-left: -5%;
+                                        //background-color: rgb(121, 0, 81);
+
+                                        svg {
+                                            height: 25%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+
+            }
+
+            //[END] LYT SS8_2
+
+            //LYT SS8_2_1
+            .ss8_2_1 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    grid-area: grd_line2;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    grid-auto-columns: 1fr;
+                    grid-auto-rows: 1fr;
+                    gap: 0px 0px;
+                    grid-auto-flow: row;
+                    justify-content: center;
+                    align-content: center;
+                    justify-items: center;
+                    align-items: center;
+                    grid-template-areas:
+                        "grd_top"
+                        "grd_bttm";
+
+                    .grd_top {
+                        grid-area: grd_top;
+
+                        div {
+                            float: left;
+
+                            svg {
+                                margin: 50px 32px 0;
+                                cursor: pointer;
+                                box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                height: 12vw !important;
+                                width: 12vw !important;
+                                border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                            }
+
+                            @media screen and (max-width: 447px) {
+                                clear: both;
+                                float: none;
+                            }
+                        }
+                    }
+
+                    .grd_bttm {
+                        grid-area: grd_bttm;
+
+                        div {
+                            float: left;
+
+                            svg {
+                                margin: 50px 32px 0;
+                                cursor: pointer;
+                                box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                height: 12vw !important;
+                                width: 12vw !important;
+                                border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                            }
+
+                            @media screen and (max-width: 447px) {
+                                clear: both;
+                                float: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS8_2_1
+
+            //LYT SS8_2_2
+            .ss8_2_2 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    grid-area: grd_line2;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    grid-auto-columns: 1fr;
+                    grid-auto-rows: 1fr;
+                    gap: 0px 0px;
+                    grid-auto-flow: row;
+                    justify-content: center;
+                    align-content: center;
+                    justify-items: center;
+                    align-items: center;
+                    grid-template-areas:
+                        "grd_top";
+
+                    .grd_top {
+                        grid-area: grd_top;
+
+                        div {
+                            float: left;
+
+                            svg {
+                                margin: 50px 32px 0;
+                                cursor: pointer;
+                                box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                height: 12vw !important;
+                                width: 12vw !important;
+                                border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                            }
+
+                            @media screen and (max-width: 447px) {
+                                clear: both;
+                                float: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS8_2_2
+
+            //LYT SS8_2_3
+            .ss8_2_3 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2"
+                    "grd_line3";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h3 {
+                        padding: 0 10vw;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    padding: 2vh 10vw;
+                    text-align: center;
+                    grid-area: grd_line2;
+
+                    p {
+                        padding: 1.5vh calc(.5rem + var(--paddingXxlH1));
+                    }
+
+                    div {
+                        padding: 0 20px;
+
+                        div {
+                            float: left;
+                            width: 50%;
+
+                            &:nth-child(1n) {
+                                p {
+                                    width: 100%;
+                                    text-align: right;
+                                    font-weight: 800;
+                                    padding: 0 8px;
+                                    margin: 22px auto;
+                                }
+                            }
+
+                            &:nth-child(2n) {
+                                text-align: left;
+                            }
+
+                            .custom_select {
+                                margin: 15px 0;
+                            }
+                        }
+                    }
+                }
+
+                .grd_line3 {
+                    text-align: center;
+                    grid-area: grd_line3;
+
+                    .content_video {
+                        position: relative;
+                        padding-top: 25px;
+                        height: 100%;
+
+                        iframe {
+                            position: absolute;
+                            top: 0;
+                            left: calc(100% / 4);
+                            width: calc(100% / 2);
+                            height: 80%;
+                            border-radius: 10px;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT SS8_2_3
+
+            //LYT FP1
+            .fp1 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: calc(1vw + var(--paddingXxlH1));
+                }
+            }
+
+            //[END] LYT FP1
+
+            //LYT FP2
+            .fp2 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 18vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: auto;
+                        height: auto;
+                        padding: 0;
+                        float: left;
+                        margin: 0 8px 0
+                    }
+                }
+            }
+
+            //[END] LYT FP2
+
+            //LYT FP3
+            .fp3 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 05vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: 50%;
+                        height: auto;
+                        padding: 0;
+                        float: left;
+
+                        &:nth-child(1n) {}
+
+                        &:nth-child(2n) {}
+                    }
+                }
+            }
+
+            //[END] LYT FP3
+
+            //LYT FP11
+            .fp11_1 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 150px auto 50px 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    padding: 0 1em;
+                    justify-content: center;
+                    justify-self: center;
+                    padding: calc(1vw + var(--paddingXxlH1));
+                    grid-area: grd_line2;
+
+                    div {
+                        float: left;
+
+                        &:nth-child(1n) {
+                            margin-right: 40px;
+                        }
+
+                        &:nth-child(2n) {
+                            margin-left: 40px;
+                        }
+
+
+                        @media screen and (max-width: $small) {
+                            width: 12rem;
+                            margin-bottom: 12px;
+                        }
+
+                        @media screen and (min-width: $medium) {
+                            width: 12rem;
+                            margin-bottom: 12px;
+                        }
+                    }
+
+                    @media screen and (max-width: $large) {
+                        width: 12rem;
+                        margin-bottom: 12px;
+                    }
+                }
+            }
+
+            //[END] LYT FP11
+
+            //LYT FP19
+            .fp19 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    text-align: center;
+                    grid-area: grd_line2;
+
+                    .content_video {
+                        position: relative;
+                        padding-top: 25px;
+                        height: 100%;
+                    }
+                }
+            }
+
+            //[END] LYT FP19
+
+            //LYT FP20
+            .fp20 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: 50%;
+                        height: auto;
+                        padding: 0;
+                        float: left;
+
+                        &:nth-child(1n) {}
+
+                        &:nth-child(2n) {}
+                    }
+                }
+            }
+
+            //[END] LYT FP20
+
+            //LYT FP21
+            .fp21 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 200px 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+                //display: none;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    text-align: center;
+                    grid-area: grd_line2;
+
+                    .content_video {
+                        position: relative;
+                        padding-top: 25px;
+                        height: 100%;
+
+                        iframe {
+                            position: absolute;
+                            top: 0;
+                            left: calc(100% / 4);
+                            width: calc(100% / 2);
+                            height: 80%;
+                            border-radius: 10px;
+                            box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                            border: 4px solid #722022;
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT FP21
+
+            //LYT FP22
+            .fp22 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 15vh calc(1vw + var(--paddingXxlH1)) 0;
+
+                    div {
+                        width: 100%;
+                        height: auto;
+                        padding: 0;
+
+                        h4 {
+                            margin: 21px 0 0;
+                        }
+
+                        div {
+                            width: 100%;
+                            height: auto;
+
+                            div {
+                                width: 100%;
+                                margin: 0 auto;
+                                padding: 8px;
+                                width: auto;
+                                float: left;
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT FP22
+
+            //LYT FP23
+            .fp23 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 15vh calc(1vw + var(--paddingXxlH1)) 0;
+
+                    div {
+                        width: 100%;
+                        height: auto;
+                        padding: 0;
+                    }
+                }
+            }
+
+            //[END] LYT FP23
+
+            //LYT FP24
+            .fp24 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 15vh calc(1vw + var(--paddingXxlH1)) 0;
+
+                    div {
+                        width: 100%;
+                        height: auto;
+                        padding: 0;
+                    }
+                }
+            }
+
+            //[END] LYT FP24
+
+            //LYT FP25
+            .fp25 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                justify-content: stretch;
+                align-content: center;
+                justify-items: stretch;
+                align-items: center;
+                grid-template-areas:
+                    "grd_title grd_title"
+                    "grd_dd_left grd_dd_right";
+
+                .grd_title {
+                    grid-area: grd_title;
+
+                    h2 {
+                        text-align: center;
+                    }
+                }
+
+                .grd_dd_left {
+                    grid-area: grd_dd_left;
+                }
+
+                .grd_dd_right {
+                    grid-area: grd_dd_right;
+                }
+            }
+
+            //[END] LYT FP25
+
+            //LYT FP26
+            .fp26 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 15vh calc(1vw + var(--paddingXxlH1)) 0;
+
+                    div {
+                        width: 100%;
+                        height: auto;
+                        padding: 0;
+                    }
+                }
+            }
+
+            //[END] LYT FP26
+
+            //LYT FP27
+            .fp27 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                justify-content: stretch;
+                align-content: center;
+                justify-items: stretch;
+                align-items: center;
+                grid-template-areas:
+                    "grd_title grd_title"
+                    "grd_dd_left grd_dd_right";
+
+                .grd_title {
+                    grid-area: grd_title;
+
+                    h2 {
+                        text-align: center;
+                    }
+
+                    h3 {
+                        text-align: center;
+                    }
+                }
+
+                .grd_dd_left {
+                    grid-area: grd_dd_left;
+                }
+
+                .grd_dd_right {
+                    grid-area: grd_dd_right;
+                }
+            }
+
+            //[END] LYT FP27
+
+            //LYT FP28
+            .fp28 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 1vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: 100%;
+                        height: 104px;
+                        padding: 0;
+                    }
+                }
+            }
+
+            //[END] LYT FP28
+
+            //LYT FP29
+            .fp29 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+                gap: 0px 0px;
+                grid-template-areas:
+                    "grd_title"
+                    "grd_results";
+                height: 100%;
+
+                .grd_title {
+                    padding: 1vh calc(1vw + var(--paddingXxlH1));
+                    grid-area: grd_title;
+
+                    H2 {
+                        text-align: center;
+                    }
+
+                    H4 {
+                        text-align: center;
+                    }
+                }
+
+                .grd_results {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr auto;
+                    grid-template-rows: auto auto;
+                    gap: 0px 0px;
+                    grid-template-areas:
+                        "grd_left grd_right"
+                        "grd_mthds grd_mthds"
+                        "grd_cta grd_cta";
+                    grid-area: grd_results;
+                    height: 100%;
+
+                    .grd_left {
+                        padding: 16px;
+                        grid-area: grd_left;
+
+                        div {
+                            float: right;
+
+                            iframe {
+                                height: 100%;
+                                border-radius: $radius;
+                            }
+                        }
+                    }
+
+                    .grd_right {
+                        padding: 16px;
+                        grid-area: grd_right;
+
+                        div {
+                            float: left;
+
+                            iframe {
+                                height: 100%;
+                                border-radius: $radius;
+                            }
+                        }
+                    }
+
+                    .grd_mthds {
+                        display: flex;
+                        justify-self: center;
+                        align-items: center;
+                        grid-area: grd_mthds;
+
+                        div {
+                            padding: 16px;
+                            margin: 0 16px;
+                            width: auto;
+                            background-color: #FFF;
+                            border: 2px solid $cc07;
+                            border-radius: $radius;
+
+                            ul {
+                                margin-left: 16px;
+                                color: $cc07;
+                            }
+                        }
+                    }
+                }
+
+                .grd_cta {
+                    grid-area: grd_cta;
+
+                    div {
+                        width: 100%;
+                        margin: 0 auto;
+                        padding: 8px;
+                        width: auto;
+                        float: left;
+                    }
+                }
+            }
+
+            //[END] LYT FP29
+
+            //LYT FP32
+            .fp32 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 200px auto;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2"
+                    "grd_line3";
+                height: 100%;
+
+                .grd_line1 {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    display: flex;
+                    justify-content: center;
+                    grid-area: grd_line2;
+
+                    div {
+                        display: flex;
+                        justify-content: center;
+
+                        .opts_img {
+                            display: grid;
+                            grid-template-columns: 1fr;
+                            grid-template-rows: 1fr auto;
+                            gap: 0px 0px;
+                            grid-template-areas:
+                                "grd_img"
+                                "grd_cta";
+
+                            .grd_img {
+                                grid-area: grd_img;
+
+                                svg {
+                                    margin: 50px 32px 0;
+                                    cursor: pointer;
+                                    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                                    height: 23vw !important;
+                                    width: 23vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    @media screen and (min-width: $xlarge) {
+                                        height: 30vw !important;
+                                        width: 30vw !important;
+                                    }
+
+                                    @media screen and (min-width: $xxlarge) {
+                                        height: 15vw !important;
+                                        width: 15vw !important;
+                                    }
+
+                                }
+                            }
+
+                            .grd_cta {
+                                padding: 16px 0;
+                                grid-area: grd_cta;
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            //[END] LYT FP32
+
+            //LYT FP33
+            .fp33 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+
+                .grd_line1 {
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+
+                        text-align: center;
+                    }
+
+                    h2 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    padding: 0 calc(.5rem + 15vw);
+                    grid-area: grd_line2;
+
+                    .mssg {
+                        display: grid;
+                        grid-template-columns: auto 1fr;
+                        grid-template-rows: auto;
+                        gap: 0px 0px;
+                        grid-template-areas:
+                            "grd_img grd_cont";
+
+                        background-color: #fff;
+                        margin: 0 32px;
+                        padding: 16px;
+                        border-radius: 20px;
+                        box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+
+                        .grd_img {
+                            grid-area: grd_img;
+
+                            svg {
+                                margin: 32px;
+                                background-color: $cc02;
+                                height: 16vw !important;
+                                width: 16vw !important;
+                                border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                -webkit-border-radius: 50%;
+                            }
+                        }
+
+                        .grd_cont {
+                            display: grid;
+                            grid-template-columns: auto auto auto;
+                            grid-template-rows: 48px auto auto;
+                            gap: 0px 0px;
+                            grid-template-areas:
+                                "grd_tile grd_tile grd_tile"
+                                "grd_c10 grd_c20 grd_c30"
+                                "grd_c11 grd_c21 grd_c31";
+
+                            border-radius: 20px;
+                            grid-area: grd_cont;
+
+                            .grd_tile {
+                                grid-area: grd_tile;
+                            }
+
+                            .grd_c10 {
+                                display: flex;
+                                justify-self: left;
+                                align-items: center;
+                                grid-area: grd_c10;
+
+                                svg {
+                                    //background-color: $cc02;
+                                    height: 8vw !important;
+                                    width: 8vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    .pathcc {
+                                        fill: $cc10;
+                                    }
+                                }
+                            }
+
+                            .grd_c11 {
+                                display: flex;
+                                justify-self: left;
+                                align-items: Top;
+                                padding: 8px;
+                                grid-area: grd_c11;
+                            }
+
+                            .grd_c20 {
+                                display: flex;
+                                justify-self: left;
+                                align-items: center;
+                                grid-area: grd_c20;
+
+                                svg {
+                                    //background-color: $cc02;
+                                    height: 8vw !important;
+                                    width: 8vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    .pathcc {
+                                        fill: $cc11;
+                                    }
+                                }
+                            }
+
+                            .grd_c21 {
+                                display: flex;
+                                justify-self: left;
+                                align-items: Top;
+                                padding: 8px;
+                                grid-area: grd_c21;
+                            }
+
+                            .grd_c30 {
+                                display: flex;
+                                justify-self: left;
+                                align-items: center;
+                                grid-area: grd_c30;
+
+                                svg {
+                                    //background-color: $cc02;
+                                    height: 8vw !important;
+                                    width: 8vw !important;
+                                    border-radius: 50%;
+                                    -moz-border-radius: 50%;
+                                    -webkit-border-radius: 50%;
+
+                                    .pathcc {
+                                        fill: $cc12;
+                                    }
+                                }
+                            }
+
+                            .grd_c31 {
+                                display: flex;
+                                justify-self: left;
+                                align-items: Top;
+                                padding: 8px;
+                                grid-area: grd_c31;
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT FP33
+
+            //LYT FP34
+            .fp34 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 25vh calc(1vw + var(--paddingXxlH1));
+                }
+            }
+
+            //[END] LYT FP34
+
+            //LYT FP35
+            .fp35 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 18vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: auto;
+                        height: auto;
+                        padding: 0;
+                        float: left;
+                        margin: 0 8px 0
+                    }
+                }
+            }
+
+            //[END] LYT FP35
+
+            //LYT FP36
+            .fp36 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 18vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: auto;
+                        height: auto;
+                        padding: 0;
+                        float: left;
+                        margin: 0 8px 0
+                    }
+                }
+            }
+
+            //[END] LYT FP36
+
+            //LYT FP37
+            .fp37 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 18vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: auto;
+                        height: auto;
+                        padding: 0;
+                        float: left;
+                        margin: 0 8px 0
+                    }
+                }
+            }
+
+            //[END] LYT FP37
+
+            //LYT FP38
+            .fp38 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 18vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: auto;
+                        height: auto;
+                        padding: 0;
+                        float: left;
+                        margin: 0 8px 0
+                    }
+                }
+            }
+
+            //[END] LYT FP38
+
+            //LYT FP39
+            .fp39 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 10vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: 100%;
+                        height: auto;
+                        padding: 0;
+                        margin: 0 8px 0
+                    }
+                }
+            }
+
+            //[END] LYT FP39
+
+            //LYT FP40
+            .fp40 {
+                div {
+                    float: left;
+                    width: 50%;
+                    padding: 18vh calc(1vw + var(--paddingXxlH1));
+
+                    div {
+                        width: auto;
+                        height: auto;
+                        padding: 0;
+                        float: left;
+                        margin: 0 8px 0
+                    }
+                }
+            }
+
+            //[END] LYT FP40
+
+            //LYT FP43
+            .fp43 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+                gap: 0px 0px;
+                grid-template-areas:
+                    "grd_title"
+                    "grd_results";
+                height: 100%;
+
+                .grd_title {
+                    padding: 1vh calc(1vw + var(--paddingXxlH1));
+                    grid-area: grd_title;
+
+                    H2 {
+                        text-align: center;
+                    }
+
+                    H4 {
+                        text-align: center;
+                    }
+                }
+
+                .grd_results {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_results;
+
+                    .rsrcs {
+                        display: grid;
+                        grid-template-columns: auto auto;
+                        grid-template-rows: auto auto;
+                        gap: 16px 16px;
+                        grid-template-areas:
+                            "grd_v1 grd_v2"
+                            "grd_t1 grd_t2";
+
+                        .grd_v1 {
+                            grid-area: grd_v1;
+
+                            div {
+                                float: right;
+                            }
+                        }
+
+                        .grd_t1 {
+                            grid-area: grd_t1;
+                        }
+
+                        .grd_v2 {
+                            grid-area: grd_v2;
+
+                            div {
+                                float: left;
+                            }
+                        }
+
+                        .grd_t2 {
+                            grid-area: grd_t2;
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT FP43
+
+            //LYT FP44
+            .fp44 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: auto 1fr;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: auto;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_line1"
+                    "grd_line2";
+                height: 100%;
+
+                .grd_line1 {
+                    padding-bottom: 12vh;
+                    grid-area: grd_line1;
+
+                    h1 {
+                        padding: 0 1em;
+                        text-align: center;
+                    }
+                }
+
+                .grd_line2 {
+                    padding: 0 calc(.5rem + 23vw);
+                    grid-area: grd_line2;
+
+                    .mbl {
+                        display: grid;
+                        grid-template-columns: auto 1fr auto;
+                        grid-template-rows: 1fr;
+                        gap: 0px 0px;
+                        grid-template-areas:
+                            "grd_icon grd_desc grd_cta";
+
+                        background-color: #fff;
+                        margin: 0 32px 21px;
+                        padding: 16px;
+                        border-radius: 20px;
+                        box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+
+                        .grd_icon {
+                            display: flex;
+                            align-items: center;
+                            grid-area: grd_icon;
+
+                            svg {
+                                height: 56px !important;
+                                width: 56px !important;
+                                border-radius: 50%;
+                                -moz-border-radius: 50%;
+                                -webkit-border-radius: 50%;
+
+                                .pathcc {
+                                    fill: $cc07;
+                                }
+                            }
+                        }
+
+                        .grd_desc {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 21px;
+                            grid-area: grd_desc;
+                        }
+
+                        .grd_cta {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 21px;
+                            grid-area: grd_cta;
+
+                            .input {
+                                border: 2px solid #722022;
+                                border-radius: 3rem;
+                                margin-left: 8px;
+
+                                .input_label {
+                                    bottom: 60%;
+                                    color: $cc07;
+                                }
+
+                                .input_num {
+                                    display: block;
+                                    margin: 0;
+                                    padding: 7px;
+                                    color: inherit;
+                                    width: 100%;
+                                    font-family: inherit;
+                                    font-size: var(--inputFontSize);
+                                    font-weight: inherit;
+                                    line-height: var(--inputLineHeight);
+                                    border: none;
+                                    border-radius: 3rem;
+                                    transition: box-shadow var(--transitionDuration);
+                                    text-align: center;
+
+                                    &::-webkit-outer-spin-button,
+                                    &::-webkit-inner-spin-button {
+                                        -webkit-appearance: none;
+                                        margin: 0;
+                                    }
+
+                                    &[type=number] {
+                                        -moz-appearance: textfield;
+                                    }
+
+                                    &::placeholder {
+                                        color: #B0BEC5;
+                                    }
+
+                                    &:focus {
+                                        outline: none;
+                                        box-shadow: none;
+                                    }
+                                }
+                            }
+
+                            .custom_select {
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            //[END] LYT FP44
+
+            //LYT FP45
+            .fp45 {
+                display: flex;
+                justify-self: center;
+                align-items: center;
+
+                .cont {
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: auto auto;
+                    gap: 0 0;
+                    grid-template-areas:
+                        "grd_title1 grd_title2"
+                        "grd_r grd_date";
+                    background-color: $ccw;
+                    border-radius: 20px;
+                    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+                    margin: 16vh auto;
+
+                    .grd_title1 {
+                        padding: 16px 16px 0;
+                        border-radius: 20px 0 0;
+                        grid-area: grd_title1;
+
+                        h2 {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .grd_title2 {
+                        padding: 16px 16px 0;
+                        border-radius: 0 20px 0 0;
+                        background-color: mix(#fff, $cc07, 84%);
+                        grid-area: grd_title2;
+
+                        h2 {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .grd_r {
+
+                        display: flex;
+                        align-items: center;
+                        grid-area: grd_r;
+
+                        div {
+                            margin: 0 auto;
+                        }
+                    }
+
+                    .grd_date {
+                        padding: 16px;
+                        border-radius: 0 0 20px;
+                        background-color: mix(#fff, $cc07, 84%);
+                        grid-area: grd_date;
+                    }
+                }
+            }
+
+            //[END] LYT FP45
+        }
+
+        .grd_bottom_nav {
+            grid-area: grd_bottom_nav;
+
+            .btm_nab_one {
+                display: grid;
+                grid-template-columns: auto 1fr auto;
+                grid-template-rows: 100%;
+                grid-auto-columns: 1fr;
+                grid-auto-rows: 1fr;
+                gap: 0px 0px;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "grd_btm_left grd_btm_center grd_btm_right";
+                height: 100%;
+                //display: none;
+
+
+
+                .grd_btm_left {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    padding: 0 0 16px 30px;
+                    grid-area: grd_btm_left;
+                }
+
+                .grd_btm_center {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    grid-area: grd_btm_center;
+
+                    .audioplayer {
+                        margin-top: -16px;
+                    }
+                }
+
+                .grd_btm_right {
+                    display: flex;
+                    justify-self: center;
+                    align-items: center;
+                    padding: 0 30px 16px 0;
+                    grid-area: grd_btm_right;
+                }
+            }
+        }
+    }
+
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {}
+
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+/* ----------- Google Pixel ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+/* ----------- Google Pixel XL ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) {}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {}
+
+/* ----------- Nexus 4 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) {}
+
+/* Portrait */
+@media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 384px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+/* ----------- Nexus 5 ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 3) {}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+/* ----------- Nexus 6 and 6P ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 4) {}
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 360px) and (device-height: 592px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {}
+
+/* ----------- Windows Phone ----------- */
+
+/* Portrait and Landscape */
+@media screen and (device-width: 480px) and (device-height: 800px) {}
+
+/* Portrait */
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: portrait) {}
+
+/* Landscape */
+@media screen and (device-width: 480px) and (device-height: 800px) and (orientation: landscape) {}

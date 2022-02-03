@@ -26,6 +26,11 @@ const Ss1_6 = () => {
     }
 
     return (
+        <>
+        <div class="wrppr1">
+                <div class="bk_left"></div>
+                <div class="bk_right"></div>
+            </div>
         <div className="lyts">
             <div className="grd_top_nav">
                 <div className="grd_left_top">
@@ -78,6 +83,7 @@ const Ss1_6 = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 export default Ss1_6;
