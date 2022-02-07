@@ -16,7 +16,7 @@
     font-size: inherit;
     font-family: inherit;
     margin-right: 12px;
-    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans0);
 
     &.btn_go {
         width: 12rem;
@@ -117,7 +117,7 @@
     min-width: 150px;
     text-align: center;
     transition: letter-spacing 0.6s;
-    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
+    box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans0);
 
     &:hover {
         color: $cc00;

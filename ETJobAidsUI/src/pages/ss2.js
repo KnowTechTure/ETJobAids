@@ -40,7 +40,7 @@ const Ss2 = () => {
                                 url={require('../assets/mp3/hothothot.mp3')}
                                 width="400px"
                                 height="50px"
-                                playing={true}
+                                playing={false}
                                 controls={true}
                             />
                         </div>

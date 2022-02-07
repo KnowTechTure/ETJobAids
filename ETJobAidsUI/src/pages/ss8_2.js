@@ -28,69 +28,75 @@ const Ss8_1 = () => {
     }
 
     return (
-        <div className="lyts">
-            <div className="grd_top_nav">
-                <div className="grd_left_top">
-                    <LogOut />
-                </div>
-                <div className="grd_right_top"></div>
+        <>
+            <div class="wrppr1">
+                <div class="bk_left"></div>
+                <div class="bk_right"></div>
             </div>
-            <div className="grd_cont">
-                <div className="ss8_2">
-                    <div className="grd_left">
-                        <div className="cont">
-                            <h1 className="slide_in_blurred_left">{Str.title}</h1>
-                            <div className="circle">
-                                <Link to={"/Ss8_2_1"}>
-                                    <Done />
-                                </Link>
-                            </div>
-                            <div className="circle">
-                                <Link to={"/Ss8_2_3"}>
-                                    <Clear />
-                                </Link>
+            <div className="lyts">
+                <div className="grd_top_nav">
+                    <div className="grd_left_top">
+                        <LogOut />
+                    </div>
+                    <div className="grd_right_top"></div>
+                </div>
+                <div className="grd_cont">
+                    <div className="ss8_2">
+                        <div className="grd_left">
+                            <div className="cont">
+                                <h1 className="slide_in_blurred_left">{Str.title}</h1>
+                                <div className="circle">
+                                    <Link to={"/Ss8_2_1"}>
+                                        <Done />
+                                    </Link>
+                                </div>
+                                <div className="circle">
+                                    <Link to={"/Ss8_2_3"}>
+                                        <Clear />
+                                    </Link>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="grd_right">
-                        <div className="cont">
-                            <div className="fathers">
-                                <div><Male_01 /></div>
-                                <div><Male_01 /></div>
-                            </div>
-                            <div className="cont_kids">
-                                <div className="kids_l2">
-                                    <div><Kid_02my /></div>
-                                    <div><Kid_02my /></div>
-                                    <div><Kid_02my /></div>
-                                    <div><Kid_02my /></div>
-                                    <div><Kid_02my /></div>
-                                    <div><Kid_04 /></div>
+                        <div className="grd_right">
+                            <div className="cont">
+                                <div className="fathers">
+                                    <div><Male_01 /></div>
+                                    <div><Male_01 /></div>
+                                </div>
+                                <div className="cont_kids">
+                                    <div className="kids_l2">
+                                        <div><Kid_02my /></div>
+                                        <div><Kid_02my /></div>
+                                        <div><Kid_02my /></div>
+                                        <div><Kid_02my /></div>
+                                        <div><Kid_02my /></div>
+                                        <div><Kid_04 /></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="grd_bottom_nav">
-                <div className="btm_nab_one">
-                    <div className="grd_btm_left">
-                    </div>
-                    <div className="grd_btm_center">
-                        <div className="audioplayer">
-                            <ReactPlayer
-                                url={require('../assets/mp3/hothothot.mp3')}
-                                width="400px"
-                                height="50px"
-                                playing={true}
-                                controls={true}
-                            />
+                <div className="grd_bottom_nav">
+                    <div className="btm_nab_one">
+                        <div className="grd_btm_left">
                         </div>
+                        <div className="grd_btm_center">
+                            <div className="audioplayer">
+                                <ReactPlayer
+                                    url={require('../assets/mp3/hothothot.mp3')}
+                                    width="400px"
+                                    height="50px"
+                                    playing={false}
+                                    controls={true}
+                                />
+                            </div>
+                        </div>
+                        <div className="grd_btm_right"></div>
                     </div>
-                    <div className="grd_btm_right"></div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 export default Ss8_1;

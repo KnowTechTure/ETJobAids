@@ -28,10 +28,11 @@ const Ss8 = () => {
     }
 
     return (
-        <><div class="wrppr1">
-            <div class="bk_left"></div>
-            <div class="bk_right"></div>
-        </div>
+        <>
+            <div class="wrppr1">
+                <div class="bk_left"></div>
+                <div class="bk_right"></div>
+            </div>
             <div className="lyts">
                 <div className="grd_top_nav">
                     <div className="grd_left_top">
@@ -89,7 +90,7 @@ const Ss8 = () => {
                                     url={require('../assets/mp3/hothothot.mp3')}
                                     width="400px"
                                     height="50px"
-                                    playing={true}
+                                    playing={false}
                                     controls={true}
                                 />
                             </div>

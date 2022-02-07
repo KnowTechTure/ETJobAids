@@ -34,7 +34,7 @@ const Fp43 = () => {
             <div className="grd_cont">
                 <div className="fp43">
                     <div className="grd_title">
-                        <h2>{Str.title}</h2>
+                        <h1>{Str.title}</h1>
                         <h4>{Str.sbttl1}</h4>
                     </div>
                     <div className="grd_results">
@@ -45,8 +45,8 @@ const Fp43 = () => {
                                     url={require('../assets/mp4/example_video.mp4')}
                                     width='auto'
                                     height='30vh'
-                                    controls
-                                    playing
+                                    playing={false}
+                                    controls={true}
                                     volume='0.85'
                                     />
                                 </div>

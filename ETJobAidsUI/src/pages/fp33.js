@@ -32,57 +32,63 @@ const Fp33 = () => {
     }
 
     return (
-        <div className="lyts">
-            <div className="grd_top_nav">
-                <div className="grd_left_top">
-                    <LogOut />
-                </div>
-                <div className="grd_right_top"></div>
+        <>
+            <div class="wrppr1">
+                <div class="bk_left"></div>
+                <div class="bk_right"></div>
             </div>
-            <div className="grd_cont">
-                <div className="fp33">
-                    <div className="grd_line1 ">
-                        <h1 className="slide_in_blurred_top">{Str.title}</h1>
-                        <h2 className="slide_in_blurred_top">{Str.sbttle}</h2>
+            <div className="lyts">
+                <div className="grd_top_nav">
+                    <div className="grd_left_top">
+                        <LogOut />
                     </div>
-                    <div className="grd_line2">
-                        <div className="mssg">
-                            <div className="grd_img"><Method_6 /></div>
-                            <div className="grd_cont">
-                                <div className="grd_tile"><h2>{Descriptions.lbls[3]}</h2></div>
-                                <div className="grd_c10">
-                                    <Icon1 />
+                    <div className="grd_right_top"></div>
+                </div>
+                <div className="grd_cont">
+                    <div className="fp33">
+                        <div className="grd_line1 ">
+                            <h1 className="slide_in_blurred_top">{Str.title}</h1>
+                            <h2 className="slide_in_blurred_top">{Str.sbttle}</h2>
+                        </div>
+                        <div className="grd_line2">
+                            <div className="mssg">
+                                <div className="grd_img"><Method_6 /></div>
+                                <div className="grd_cont">
+                                    <div className="grd_tile"><h2>{Descriptions.lbls[3]}</h2></div>
+                                    <div className="grd_c10">
+                                        <Icon1 />
+                                    </div>
+                                    <div className="grd_c11">{Descriptions.desc[0]}</div>
+                                    <div className="grd_c20">
+                                        <Icon2 />
+                                    </div>
+                                    <div className="grd_c21">{Descriptions.desc[1]}</div>
+                                    <div className="grd_c30">
+                                        <Icon3 />
+                                    </div>
+                                    <div className="grd_c31">{Descriptions.desc[2]}</div>
                                 </div>
-                                <div className="grd_c11">{Descriptions.desc[0]}</div>
-                                <div className="grd_c20">
-                                    <Icon2 />
-                                </div>
-                                <div className="grd_c21">{Descriptions.desc[1]}</div>
-                                <div className="grd_c30">
-                                    <Icon3 />
-                                </div>
-                                <div className="grd_c31">{Descriptions.desc[2]}</div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="grd_bottom_nav">
-                <div className="btm_nab_one">
-                    <div className="grd_btm_left">
-                        <Link to={"/Fp32"}>
-                            <BtnNavBack text_btn={Btns.lbl[0]} />
-                        </Link>
-                    </div>
-                    <div className="grd_btm_center"></div>
-                    <div className="grd_btm_right">
-                        <Link to={"/Fp34"}>
-                            <BtnNavNext text_btn={Btns.lbl[1]} />
-                        </Link>
+                <div className="grd_bottom_nav">
+                    <div className="btm_nab_one">
+                        <div className="grd_btm_left">
+                            <Link to={"/Fp32"}>
+                                <BtnNavBack text_btn={Btns.lbl[0]} />
+                            </Link>
+                        </div>
+                        <div className="grd_btm_center"></div>
+                        <div className="grd_btm_right">
+                            <Link to={"/Fp34"}>
+                                <BtnNavNext text_btn={Btns.lbl[1]} />
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 export default Fp33;

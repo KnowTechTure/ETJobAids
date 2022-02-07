@@ -17,3 +17,23 @@
         height: 100vh;
     }
 }
+
+.wrppr2 {
+    width: 100vw;
+    height: 100vh;
+
+    .bk_left {
+        float: left;
+        width: 44vw;
+        height: 100vh;
+    }
+
+    .bk_right {
+        float: left;
+        width: 56vw;
+        height: 100vh;
+        background-color: $cc05;
+        -webkit-clip-path: polygon(22% 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(22% 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}

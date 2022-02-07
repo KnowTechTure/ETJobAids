@@ -24,6 +24,10 @@ const Fp2 = () => {
 
     return (
         <>
+            <div class="wrppr2">
+                <div class="bk_left"></div>
+                <div class="bk_right"></div>
+            </div>
             <div className="lyts">
                 <div className="grd_top_nav">
                     <div className="grd_left_top">
@@ -35,7 +39,7 @@ const Fp2 = () => {
                     <div className="fp2">
                         <div>Image</div>
                         <div>
-                            <h2 className="tracking_in_expand">{Str.title}</h2>
+                            <h1 className="tracking_in_expand">{Str.title}</h1>
                             <div className="r_bttons">
                                 <RadioButtons name={Rbttns.name} lbl={Rbttns.lbls[0]} />
                             </div>
@@ -58,7 +62,7 @@ const Fp2 = () => {
                                     url={require('../assets/mp3/hothothot.mp3')}
                                     width="400px"
                                     height="50px"
-                                    playing={true}
+                                    playing={false}
                                     controls={true}
                                 />
                             </div>

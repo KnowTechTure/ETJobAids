@@ -37,80 +37,86 @@ const Fp44 = () => {
     }
 
     return (
-        <div className="lyts">
-            <div className="grd_top_nav">
-                <div className="grd_left_top">
-                    <LogOut />
-                </div>
-                <div className="grd_right_top"></div>
+        <>
+            <div class="wrppr1">
+                <div class="bk_left"></div>
+                <div class="bk_right"></div>
             </div>
-            <div className="grd_cont">
-                <div className="fp44">
-                    <div className="grd_line1 ">
-                        <h1 className="slide_in_blurred_top">{Str.title}</h1>
+            <div className="lyts">
+                <div className="grd_top_nav">
+                    <div className="grd_left_top">
+                        <LogOut />
                     </div>
-                    <div className="grd_line2">
-                        <div class="mbl">
-                            <div class="grd_icon">
-                                <Mobile1 />
-                            </div>
-                            <div class="grd_desc">{Descr.lbls[0]}</div>
-                            <div class="grd_cta">
-                                <div className="slide_in_blurred_right">
-                                    <SelectOp ops={op_mobile.mthds} name={op_mobile.name} clss={op_mobile.clss} />
+                    <div className="grd_right_top"></div>
+                </div>
+                <div className="grd_cont">
+                    <div className="fp44">
+                        <div className="grd_line1 ">
+                            <h1 className="slide_in_blurred_top">{Str.title}</h1>
+                        </div>
+                        <div className="grd_line2">
+                            <div class="mbl">
+                                <div class="grd_icon">
+                                    <Mobile1 />
                                 </div>
-                                <div className="flds slide_in_blurred_right">
-                                    <NumField flds_lbls={Str.flds_lbls} flds_holder={Str.flds_lbls} />
+                                <div class="grd_desc">{Descr.lbls[0]}</div>
+                                <div class="grd_cta">
+                                    <div className="slide_in_blurred_right">
+                                        <SelectOp ops={op_mobile.mthds} name={op_mobile.name} clss={op_mobile.clss} />
+                                    </div>
+                                    <div className="flds slide_in_blurred_right">
+                                        <NumField flds_lbls={Str.flds_lbls} flds_holder={Str.flds_lbls} />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mbl">
+                                <div class="grd_icon">
+                                    <Mobile2 />
+                                </div>
+                                <div class="grd_desc">{Descr.lbls[1]}</div>
+                                <div class="grd_cta">
+                                    <div className="r_bttons">
+                                        <RadioButtons name={Rbttns.name[0]} lbl={Rbttns.lbls[0]} />
+                                    </div>
+                                    <div className="r_bttons">
+                                        <RadioButtons name={Rbttns.name[0]} lbl={Rbttns.lbls[1]} />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mbl">
+                                <div class="grd_icon">
+                                    <Mobile3 />
+                                </div>
+                                <div class="grd_desc">{Descr.lbls[2]}</div>
+                                <div class="grd_cta">
+                                    <div className="r_bttons">
+                                        <RadioButtons name={Rbttns.name[1]} lbl={Rbttns.lbls[0]} />
+                                    </div>
+                                    <div className="r_bttons">
+                                        <RadioButtons name={Rbttns.name[1]} lbl={Rbttns.lbls[1]} />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="mbl">
-                            <div class="grd_icon">
-                                <Mobile2 />
-                            </div>
-                            <div class="grd_desc">{Descr.lbls[1]}</div>
-                            <div class="grd_cta">
-                                <div className="r_bttons">
-                                    <RadioButtons name={Rbttns.name[0]} lbl={Rbttns.lbls[0]} />
-                                </div>
-                                <div className="r_bttons">
-                                    <RadioButtons name={Rbttns.name[0]} lbl={Rbttns.lbls[1]} />
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div className="grd_bottom_nav">
+                    <div className="btm_nab_one">
+                        <div className="grd_btm_left">
+                            <Link to={"/Fp43"}>
+                                <BtnNavBack text_btn={Btns.lbl[0]} />
+                            </Link>
                         </div>
-                        <div class="mbl">
-                            <div class="grd_icon">
-                                <Mobile3 />
-                            </div>
-                            <div class="grd_desc">{Descr.lbls[2]}</div>
-                            <div class="grd_cta">
-                                <div className="r_bttons">
-                                    <RadioButtons name={Rbttns.name[1]} lbl={Rbttns.lbls[0]} />
-                                </div>
-                                <div className="r_bttons">
-                                    <RadioButtons name={Rbttns.name[1]} lbl={Rbttns.lbls[1]} />
-                                </div>
-                            </div>
+                        <div className="grd_btm_center"></div>
+                        <div className="grd_btm_right">
+                            <Link to={"/Fp45"}>
+                                <BtnNavNext text_btn={Btns.lbl[1]} />
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="grd_bottom_nav">
-                <div className="btm_nab_one">
-                    <div className="grd_btm_left">
-                        <Link to={"/Fp43"}>
-                            <BtnNavBack text_btn={Btns.lbl[0]} />
-                        </Link>
-                    </div>
-                    <div className="grd_btm_center"></div>
-                    <div className="grd_btm_right">
-                        <Link to={"/Fp45"}>
-                            <BtnNavNext text_btn={Btns.lbl[1]} />
-                        </Link>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </>
     )
 }
 export default Fp44;

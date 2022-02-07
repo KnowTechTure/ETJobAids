@@ -73,6 +73,7 @@
 
 h1 {
   color: $cc00;
+  letter-spacing: 1px;
   -webkit-text-stroke: 0.5px $cc01;
 }
 $H1FontSize_0:calc(4vw + var(--fontSizeH1));
@@ -81,6 +82,7 @@ $H1FontSize_2:calc(1.5vw + var(--fontSizeH1));
 $H1FontSize_3:calc(1.3vw + var(--fontSizeH1));
 $H1FontSize_4:calc(1vw + var(--fontSizeH1));
 $H1FontSize_5:calc(0.8vw + var(--fontSizeH1));
+$H1FontSize_6:calc(0.2vw + var(--fontSizeH1));
 
 h2 {
   font-size: calc(0.8rem + var(--fontSizeH2));
