@@ -50,8 +50,8 @@ const Init1 = () => {
                                     className="video_player"
                                     url={require('../assets/mp4/example_video.mp4')}
                                     controls
-                                    playing
-                                    volume='0.85'
+                                    playing={false}
+                                    controls={true}
                                 />
                             </div>
                         </div>

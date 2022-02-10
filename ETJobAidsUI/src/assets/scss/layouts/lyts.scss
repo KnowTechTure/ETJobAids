@@ -67,7 +67,7 @@
         .int1 {
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: auto 1fr;
+            grid-template-rows: auto auto;
             grid-auto-columns: 1fr;
             grid-auto-rows: 1fr;
             gap: 0px 0px;
@@ -95,10 +95,10 @@
                 grid-area: grd_line2;
 
                 .video_player {
-                    margin: 50px auto;
-                    width: 100vw;
+                    margin: calc(100% / 2%) auto;
+                    background-color: #722022;
+                    width: 100%;
                     height: auto;
-                    max-width: auto;
                 }
             }
         }
@@ -332,6 +332,7 @@
                                 box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
                                 height: 23vw;
                                 width: 23vw;
+                                border: 4px solid #722022;
                                 border-radius: 50%;
                                 -moz-border-radius: 50%;
                                 -webkit-border-radius: 50%;
@@ -495,6 +496,7 @@
                                 box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
                                 height: 23vw;
                                 width: 23vw;
+                                border: 4px solid #722022;
                                 border-radius: 50%;
                                 -moz-border-radius: 50%;
                                 -webkit-border-radius: 50%;
@@ -645,6 +647,7 @@
                                 box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
                                 height: 23vw;
                                 width: 23vw;
+                                border: 4px solid #722022;
                                 border-radius: 50%;
                                 -moz-border-radius: 50%;
                                 -webkit-border-radius: 50%;
@@ -1641,6 +1644,7 @@
                             box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
                             height: 12vw;
                             width: 12vw;
+                            border: 4px solid #722022;
                             border-radius: 50%;
                             -moz-border-radius: 50%;
                             -webkit-border-radius: 50%;
@@ -1665,6 +1669,7 @@
                             box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
                             height: 12vw;
                             width: 12vw;
+                            border: 4px solid #722022;
                             border-radius: 50%;
                             -moz-border-radius: 50%;
                             -webkit-border-radius: 50%;
@@ -3040,6 +3045,7 @@
                                 box-shadow: 0.2rem 0.8rem 1.6rem var(--colorTrans2);
                                 height: 23vw;
                                 width: 23vw;
+                                border: 4px solid #722022;
                                 border-radius: 50%;
                                 -moz-border-radius: 50%;
                                 -webkit-border-radius: 50%;
